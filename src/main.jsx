@@ -5,6 +5,13 @@ import App from './App.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import AddBlog from './components/addblog/AddBlog'
+
+
+
+
+
+
+
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App/>}>
@@ -18,6 +25,7 @@ const router=createBrowserRouter(
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider  router={router}/>
+    
     
 
     

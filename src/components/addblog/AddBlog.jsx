@@ -34,29 +34,7 @@ const docRef = await addDoc(collection(db, "blogdata"), {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
-          </div>
-          <div>
-            <select 
-            className="border-2 border-gray-400  my-4 outline-none w-full p-2"
-            >
-              <option value="" key="">
-                Select Type
-              </option>
-              <option value="React" key="react">
-                React
-              </option>
-              <option value="Html" key="html">
-              HTML
-            </option> <option value="Css" key="css">
-                CSS
-              </option> <option value="JavaScript" key="js">
-                JavaScript
-              </option> <option value="Node-Js" key="node">
-              Node-Js
-            </option>
-              
-            </select>
-          </div>
+          </div>   
           <div>
             <textarea
               className="border-2 border-gray-400  my-4 outline-none w-full p-2"
